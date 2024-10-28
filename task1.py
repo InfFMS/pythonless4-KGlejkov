@@ -15,3 +15,4 @@ def f(n):
         print('*' * (i+1))
 n=int(input())
 f(n)
+
