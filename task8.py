@@ -6,4 +6,12 @@
 # 378
 # Вывод:
 # 2*3*3*3*7
-
+def f(x):
+    for i in range(2,int(x**0.5)+1):
+        while x%i==0:
+            print(i)
+            x//=i
+    if x!=1:
+        print(x)
+x=int(input())
+f(x)
