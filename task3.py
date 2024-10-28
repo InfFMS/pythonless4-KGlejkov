@@ -30,3 +30,8 @@ def f(n):
             n -= integer
 
     return a
+
+
+number = int(input())
+rimskiy= f(number)
+print(rimskiy)
