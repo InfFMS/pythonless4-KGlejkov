@@ -10,4 +10,4 @@ def is_valid_triangle(side1, side2, side3):
 side1=int(input())
 side2=int(input())
 side3=int(input())
-is_valid_triangle(side1, side2, side3)
+print(is_valid_triangle(side1, side2, side3))
